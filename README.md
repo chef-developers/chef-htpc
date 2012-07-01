@@ -2,7 +2,7 @@
 
 ## Users
 
-You should place create databag `users` and place your user there, i.e
+You should create databag `users` and place your user definition there, i.e
 
     {
       "id"        : "hsolo",
