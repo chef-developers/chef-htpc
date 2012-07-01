@@ -1,7 +1,12 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    build-essential (1.0.2)
+    openssl (1.0.0)
     sudo (1.1.0)
+    transmission (1.0.2)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
 
 GIT
   remote: https://github.com/edelight/chef-solo-search.git
@@ -20,5 +25,6 @@ GIT
 DEPENDENCIES
   chef-solo-search (>= 0)
   sudo (>= 0)
+  transmission (>= 0)
   user (>= 0)
 
