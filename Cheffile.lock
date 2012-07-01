@@ -4,6 +4,12 @@ SITE
     build-essential (1.0.2)
     openssl (1.0.0)
     sudo (1.1.0)
+
+GIT
+  remote: https://github.com/chef-developers/transmission.git
+  ref: master
+  sha: 6c18c2d865037839b8f576c973acb632f81740a0
+  specs:
     transmission (1.0.2)
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)

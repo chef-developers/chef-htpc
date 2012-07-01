@@ -9,7 +9,8 @@ cookbook 'chef-solo-search',
   :git => 'https://github.com/edelight/chef-solo-search.git'
 cookbook 'user',
   :git => 'https://github.com/fnichol/chef-user.git'
-cookbook 'transmission'
+cookbook 'transmission',
+  :git => 'https://github.com/chef-developers/transmission.git'
 
 # cookbook 'apache2', '>= 1.0.0'
 
