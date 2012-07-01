@@ -1,0 +1,4 @@
+data_bags/**/
+cookbooks/
+tmp/
+.vagrant

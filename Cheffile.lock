@@ -1,0 +1,24 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    sudo (1.1.0)
+
+GIT
+  remote: https://github.com/edelight/chef-solo-search.git
+  ref: master
+  sha: d56fbd5547cb08120ce38c3c75db61f4b103cbec
+  specs:
+    chef-solo-search (0.4.0)
+
+GIT
+  remote: https://github.com/fnichol/chef-user.git
+  ref: master
+  sha: e9e93720fcc930918ba7be856a12ece02b300d43
+  specs:
+    user (0.2.13)
+
+DEPENDENCIES
+  chef-solo-search (>= 0)
+  sudo (>= 0)
+  user (>= 0)
+
