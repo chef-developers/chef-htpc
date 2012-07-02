@@ -8,6 +8,7 @@ override_attributes(
     'rpc-whitelist-enabled' => 'false',
     'download_dir' => '/srv/media/Download',
     'incomplete_dir' => '/srv/media/incomplete',
-    'incomplete_dir_enabled' => 'true'
+    'incomplete_dir_enabled' => 'true',
+    'umask' => '002'
   }
 )
