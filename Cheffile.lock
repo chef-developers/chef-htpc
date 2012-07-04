@@ -1,7 +1,6 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    bag_config (2.0.1)
     build-essential (1.0.2)
     openssl (1.0.0)
     sudo (1.1.0)
@@ -37,6 +36,13 @@ GIT
   sha: e9e93720fcc930918ba7be856a12ece02b300d43
   specs:
     user (0.2.13)
+
+GIT
+  remote: https://github.com/heavywater/chef-bag_config
+  ref: master
+  sha: f7c9b9e60720ddc67794b988cf33126d24a488fd
+  specs:
+    bag_config (2.0.2)
 
 GIT
   remote: https://github.com/opscode-cookbooks/python

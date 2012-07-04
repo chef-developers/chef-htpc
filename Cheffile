@@ -14,7 +14,8 @@ cookbook 'transmission',
 
 cookbook 'python',
   :git => 'https://github.com/opscode-cookbooks/python'
-cookbook 'bag_config' # attributes taken from databags
+cookbook 'bag_config', # attributes taken from databags
+  :git => 'https://github.com/heavywater/chef-bag_config'
 cookbook 'flexget',
   :git => 'https://github.com/chef-developers/chef-flexget.git'
 
