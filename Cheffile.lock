@@ -4,9 +4,8 @@ SITE
     bag_config (2.0.1)
     build-essential (1.0.2)
     openssl (1.0.0)
-    python (1.0.6)
-      build-essential (>= 0.0.0)
     sudo (1.1.0)
+    yum (0.6.2)
 
 GIT
   remote: https://github.com/chef-developers/chef-flexget.git
@@ -38,6 +37,15 @@ GIT
   sha: e9e93720fcc930918ba7be856a12ece02b300d43
   specs:
     user (0.2.13)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/python
+  ref: master
+  sha: 3d8dd96b457091b6ec12635ec3fef9e8d0a5f719
+  specs:
+    python (1.0.6)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
 
 DEPENDENCIES
   bag_config (>= 0)
