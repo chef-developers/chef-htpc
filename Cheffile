@@ -12,6 +12,11 @@ cookbook 'user',
 cookbook 'transmission',
   :git => 'https://github.com/chef-developers/transmission.git'
 
+cookbook 'python'
+cookbook 'bag_config' # attributes taken from databags
+cookbook 'flexget',
+  :git => 'https://github.com/chef-developers/chef-flexget.git'
+
 # cookbook 'apache2', '>= 1.0.0'
 
 # cookbook 'rvm',

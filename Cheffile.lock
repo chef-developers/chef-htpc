@@ -1,14 +1,25 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    bag_config (2.0.1)
     build-essential (1.0.2)
     openssl (1.0.0)
+    python (1.0.6)
+      build-essential (>= 0.0.0)
     sudo (1.1.0)
+
+GIT
+  remote: https://github.com/chef-developers/chef-flexget.git
+  ref: master
+  sha: fa1f0d1b7c7a6561802b9172a78c6c9841c8aaa0
+  specs:
+    flexget (1.0.0)
+      python (>= 0.0.0)
 
 GIT
   remote: https://github.com/chef-developers/transmission.git
   ref: master
-  sha: 6c18c2d865037839b8f576c973acb632f81740a0
+  sha: 5a911cf906665ad879078b447541bd6294d0a290
   specs:
     transmission (1.0.2)
       build-essential (>= 0.0.0)
@@ -29,7 +40,10 @@ GIT
     user (0.2.13)
 
 DEPENDENCIES
+  bag_config (>= 0)
   chef-solo-search (>= 0)
+  flexget (>= 0)
+  python (>= 0)
   sudo (>= 0)
   transmission (>= 0)
   user (>= 0)
