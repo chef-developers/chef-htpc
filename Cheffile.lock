@@ -9,7 +9,7 @@ SITE
 GIT
   remote: https://github.com/chef-developers/chef-flexget.git
   ref: master
-  sha: d6417407adc32b36275ac9cbef5301c931c4a144
+  sha: a1284ebd4422a1db1caf8309a8ca53d610a84d74
   specs:
     flexget (1.0.0)
       python (>= 0.0.0)
