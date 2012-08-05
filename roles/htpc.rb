@@ -4,4 +4,4 @@ roles = %w{
   user torrent flexget
 }
 
-run_list(roles.collect { |r| "role[#{r}]" })
+run_list(roles.collect { |r| "role[#{r}]" } << "htpc::jdownloader")

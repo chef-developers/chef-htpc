@@ -19,6 +19,9 @@ cookbook 'bag_config', # attributes taken from databags
 cookbook 'flexget',
   :git => 'https://github.com/chef-developers/chef-flexget.git'
 
+cookbook 'htpc',
+	:git => 'https://github.com/chef-developers/cookbook-htpc.git'			
+
 # cookbook 'apache2', '>= 1.0.0'
 
 # cookbook 'rvm',
